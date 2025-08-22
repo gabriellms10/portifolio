@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <nav>
+            <img class="logo" src="./public/perfil3.png" alt="Logo do portifólio" />
+            <div class="links">
+                <ul class="ancoras">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#my__tech">Tech Stack</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+               
+            </div>
+        </nav>
+
+        <main>
+            <section id="home" class="container">
+                <div class="apresentacao">
+                    <h1>Hello<span></span>,<br />
+                       My name is <br />
+                        <strong>Gabriel Sá</strong><br />
+                       I'm a backend developer
+                    </h1>
+
+                </div>
+                <img class="meu__perfil" src="./public/perfil3.png" alt="Minha foto de perfil">
+            </section>
+
+             <article id="my__tech" class="my__tech --separador">
+                <div class="data">
+                    <h2>Technologies</h2>
+                    <h3>recently used technologies</h3>
+                </div>
+                <div class="tecnologies">
+                   
+                    <img src="./public/icone_java.png" alt="Ícone Java">
+                    <img src="./public/icone_spring.png" alt="Ícone SpringBoot"> 
+                    <img src="./public/icone_mysql.png" alt= "Ícone MySql">
+                    <img src="./public/icone_github.png" alt="Ícone Git">
+                    <img src="./public/icone_html5.png" alt="Ícone html">
+                    <img src="./public/icone_css3.png" alt="Ícone Css">
+                    <img src="./public/icone_js.png" alt="Ícone Js">
+                   
+                    
+                </div>
+            </article>
+
+             <article id="projects" class="--separador">
+                <div class="data">
+                    <h2>Projects</h2>
+                    <h3>projects under development</h3>
+                </div>
+                <div class="list__projetcts">
+                    <div class="card__project" onclick="seeProject('Projeto1')">
+                        <img src="./public/bid.png" />
+                        <p class="card__title">
+                            BID
+                        </p>
+                        <p class="card__body">
+                           Boletim Informaivo Diario é uma iniciaiva em java Sprin Boot que simula
+                           o sistema de transferencias da CBF ,com objetivo de registrar transferencias 
+                           de atletas de forma nacional isso facilita o status de negociação dos jogadores regularizados na CBF
+                        </p>
+
+                        <div class="card__footer">
+
+                           
+                            <a href="https://github.com/gabriellms10/Projeto_BackEnd_BID">Link para o projeto</a>
+                        </div>
+                    </div> 
+                    
+                    <div class="card__project" onclick="seeProject('Projeto1')">
+                        <img src="./public/playliston.png.jpg" />
+                        <p class="card__title">
+                            PlayList On
+                        </p>
+                        <p class="card__body">
+                            Com iniciativa de construir uma PlayList online, esse 
+                            site permite criar e personalizar listas de musicas sem precisar baixar ,
+                             todo esse projeto foi desenvolvido com IA, usando a criatividade 
+                             e as seguintes tecnologias, Html, CSS e JavaScript.   
+                        </p>
+
+                        <div class="card__footer">
+                            <img src="./public/git.svg" alt="" srcset="">
+                            <a href="https://github.com/gabriellms10/https---github.com-gabriellms10-Projeto-Estrutura-de-Dados">Link para o projeto</a>
+                        </div>
+                    </div> 
+
+                   
+
+                 
+
+                    
+                    </div> 
+                </div>
+            </article>
+
+                
+        
+              <article id="my__tech" class="my__tech --separador">
+                   <div class="contatosfinais ">
+
+                    <a href="https://www.linkedin.com/in/gabriel-de-s%C3%A1-574b22267/"> <img class="logo" src="./public/linkedin.png" alt="Ícone Js"></a>
+                    <a href="mailto:gabriellms2002@gmail.com"> <img class="logo" src="./public/icons8-gmail-48.png" alt="Ícone Js"></a>
+                     <a href="https://wa.link/08w5th"> <img class="logo" src="./public/wpp.png"  alt="Ícone Js"></a>
+                        
+ 
+
+                </div>
+                  
+
+            </article>
+
+        </main>
+
+        <footer class="--separador">
+            <p>
+                Designed by Pavan MG with Love & Coffee
+            </p>
+        </footer>
+  </body>
+</html>
